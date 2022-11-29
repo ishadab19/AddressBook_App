@@ -26,8 +26,8 @@ function check(event)
    else
    document.getElementById("name-err").innerHTML =""
 }
-document.getElementById('form')
-   .addEventListener('submit',hello);
+document.getElementById('form') //fetching detail
+   .addEventListener('submit',hello);//applying action on form through funtion name by clicling submit
 
 
    function hello1(event){
