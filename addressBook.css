@@ -9,7 +9,7 @@ body{
     align-items: center;
     border: 0px solid green;
     width: 100%;
-    background: blanchedalmond;
+    background: rgb(255, 255, 255);
 }
 .logoContent{
     display: flex;
@@ -35,13 +35,22 @@ body{
     margin-left: 200px;
 }
 .form{
-    width: 50;
+    width: 60%;
     padding: 80px 80px;
-    background: white 0% 0% no-repeat padding-box;
+    background: rgb(238, 238, 238) no-repeat padding-box;
     box-shadow: 0px 3px 6px#00000029;
     border-radius: 8px;
     opacity: 1;
 }
+.formContent{
+    min-height: 150px ;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    
+ }
 img{
     width: 30px;
     height: 30px;
@@ -51,7 +60,7 @@ img{
     display: flex; 
     flex-direction: column; 
     min-height: calc(100vh - 80px); 
-    background-color: #f7f7f7; 
+    background-color: white; 
     padding: 30px 10px; 
     box-sizing: border-box;
     
@@ -60,20 +69,21 @@ img{
     display: flex; 
     flex-direction: row; 
     justify-content: space-between; 
+    text-decoration: underline;
     align-items: center; 
     width: 100%; 
-    background-color:skyblue;
+    background-color:rgb(158, 224, 250);
     padding-top: 20px;
     margin-top: -5em;
     
  }
  .book-detail-text {
-    display: flex;
     font-size: 30px;
     color: #42515f; 
     opacity: 1;
     font-weight: bold;
-    padding-left: 550px;   
+    padding-left: 20px;
+    align-items: left;   
  }
  .row-content{
     display: flex;
@@ -115,6 +125,8 @@ img{
  .buttonParent {
     flex-direction: column-reverse; 
     align-items: flex-start;
+    color: red;
+    font-size: 10px;
  }
  .Add{
     margin-top: 1em;
@@ -126,7 +138,7 @@ img{
  .reset{
     justify-content: flex-end;
     margin-left: 330px;
-    margin-top: -3em;
+    margin-top: -4em;
     padding-top: -2em;
     padding-bottom: 1em;
  }
